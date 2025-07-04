@@ -39,8 +39,9 @@ overflow:hidden;
 transform: translateY(-100%);
 }
 
+.sr-only:focus,
 .sr-only:focus-visible {
-position:relative;
+position:static;
 width:auto;
 height:auto;
 transform: translateY(0);
