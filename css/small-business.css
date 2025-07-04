@@ -41,10 +41,16 @@ transform: translateY(-100%);
 
 .sr-only:focus,
 .sr-only:focus-visible {
-position:static;
+position: fixed;
+top: 70px;
+right: auto;
+left: 0;
 width:auto;
 height:auto;
+overflow: visible;
 transform: translateY(0);
-background-color: black;
-color: white;
+background-color: white;
+color: black;
+padding: 0.5em 1em;
+clip: auto;
 }
