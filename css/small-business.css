@@ -6,3 +6,44 @@
 body {
   padding-top: 56px;
 }
+
+.btn-primary {
+  background-color: #0b5ed7 !important;
+  border-color:     #0a58ca !important;  /* optional: match the “active” shade */
+  color:            #fff    !important;
+}
+
+.btn-primary:hover {
+  background-color: #0a58ca;   /* you can pick an even darker shade */
+  border-color:     #0a58ca;
+}
+
+.btn-primary:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 2px #fff,
+              0 0 0 6px #022a66;
+}
+
+h1 {
+  margin: auto;
+  padding: 56px;
+}
+
+.sr-only {
+position:absolute;
+left:-10000px;
+top:auto;
+width:1px;
+height:1px;
+overflow:hidden;
+transform: translateY(-100%);
+}
+
+.sr-only:focus-visible {
+position:relative;
+width:auto;
+height:auto;
+transform: translateY(0);
+background-color: black;
+color: white;
+}
